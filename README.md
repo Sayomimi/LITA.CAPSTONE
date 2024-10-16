@@ -69,5 +69,15 @@ SELECT * FROM Sales_DB.salesdata;
 
 SELECT SUM(UnitPrice), Product 
 FROM salesdata
-GROUP BY Product;
+GROUP BY Product
+
+SELECT COUNT(OrderID), Region
+FROM salesdata
+GROUP BY Region;
+
+SELECT Product, SUM(Quantity * UnitPrice) AS Total_sales_value
+FROM salesdata
+GROUP BY Product
+ORDER BY Total_sales_value DESC
+;
 ```
