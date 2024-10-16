@@ -51,8 +51,13 @@ The dataset consists of transactional sales data with the following key columns:
 - Actionable Insights: Recommendations for improving sales strategies, focusing on high-growth products and regions, and identifying key customer segments.
 
 ### Pivot Tables
+![Sales by product](https://github.com/user-attachments/assets/8d4e2ffb-cc62-42e5-b7d4-6392f9842d0c)
 
+![Sales by region](https://github.com/user-attachments/assets/9efb5be8-ef99-4e3c-807f-24cc0e36424b)
 
+![Top 10 Customers](https://github.com/user-attachments/assets/beaac4e3-6d2f-49b6-bf87-69607439efaf)
+
+![Monthly trends](https://github.com/user-attachments/assets/bd779fe4-895e-4b9c-ab9f-8d23621d3f7c)
 
 ### Code Used
  ```SQL
@@ -60,17 +65,28 @@ CREATE DATABASE Sales_DB;
 
 SELECT * FROM Sales_DB.salesdata;
 
-SELECT SUM(UnitPrice), Product 
+--Retrieve the total sales for each product category--
+SELECT SUM(Quantity), Product 
 FROM salesdata
-GROUP BY Product
+GROUP BY Product;
 
+--Find the number of sales transactions in each region--
 SELECT COUNT(OrderID), Region
 FROM salesdata
 GROUP BY Region;
 
+--Calculate the total revenue per product--
 SELECT Product, SUM(Quantity * UnitPrice) AS Total_sales_value
 FROM salesdata
 GROUP BY Product
 ORDER BY Total_sales_value DESC
+;
+
+--Calculate the highest-selling product by total sales value--
+SELECT Product, SUM(Quantity * UnitPrice) AS Total_sales_value
+FROM salesdata
+GROUP BY Product
+ORDER BY Total_sales_value DESC
+LIMIT 1
 ;
 ```
