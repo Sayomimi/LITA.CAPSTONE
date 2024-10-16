@@ -16,15 +16,17 @@ The dataset consists of transactional sales data with the following key columns:
 - Unit Price: Price per unit of the product.
 
 ### Tools and Techniques:
-1. SQL:
+
+1. Microsoft Excel:
+   - Data cleaning, transformation, and preliminary analysis.
+   - Use of PivotTables and formulas to create quick summaries.
+  
+     
+2. SQL:
    - Used for querying and aggregating data from the sales database.
    - Filtering data based on region, product, customer, and time periods.
    - Generating insights on total sales, customer segmentation, and product performance.
 
-2. Microsoft Excel:
-   - Data cleaning, transformation, and preliminary analysis.
-   - Use of PivotTables and formulas to create quick summaries.
-   - Visualizing key metrics such as sales by product and region, and monthly trends using Excel charts.
 
 3. Power BI:
    - Building interactive dashboards for dynamic visualizations.
@@ -50,3 +52,22 @@ The dataset consists of transactional sales data with the following key columns:
 
 ### Pivot Tables
 
+
+![Sales by product](https://github.com/user-attachments/assets/6a71ece3-1683-48bf-bcc4-28af3e13ced0)
+
+![Sales by Region](https://github.com/user-attachments/assets/bf435201-c4f1-439a-a8bc-335fa6bb9a81)
+
+![Monthly trend](https://github.com/user-attachments/assets/0ae18ad7-4e6f-4257-995a-453d3a645908)
+
+![Top 10 Customers](https://github.com/user-attachments/assets/292c96ea-e8e6-4a99-96e3-c10d712843f5)
+
+### Code Used
+ ```SQL
+CREATE DATABASE Sales_DB;
+
+SELECT * FROM Sales_DB.salesdata;
+
+SELECT SUM(UnitPrice), Product 
+FROM salesdata
+GROUP BY Product;
+```
