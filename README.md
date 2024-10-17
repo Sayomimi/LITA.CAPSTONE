@@ -89,4 +89,15 @@ GROUP BY Product
 ORDER BY Total_sales_value DESC
 LIMIT 1
 ;
+
+ ALTER TABLE salesdata
+ADD Year INT;
+
+ALTER TABLE salesdata
+ADD Month INT;
+
+UPDATE salesdata
+SET Year = YEAR(STR_TO_DATE(Orderdate, '%c/%e/%Y')),
+Month = MONTH(STR_TO_DATE(Orderdate, '%c/%e/%Y'));
+
 ```
