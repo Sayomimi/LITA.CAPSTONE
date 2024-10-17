@@ -90,6 +90,7 @@ ORDER BY Total_sales_value DESC
 LIMIT 1
 ;
 
+--Calculate monthly sales total for the current year--
  ALTER TABLE salesdata
 ADD Year INT;
 
@@ -100,11 +101,12 @@ UPDATE salesdata
 SET Year = YEAR(STR_TO_DATE(Orderdate, '%c/%e/%Y')),
 Month = MONTH(STR_TO_DATE(Orderdate, '%c/%e/%Y'));
 
-SELECT Year, Month, SUM(Quantity * UnitPrice) AS Total_sale_value
+SELECT Month, SUM(Quantity * UnitPrice) AS Total_sale_value
 FROM salesdata 
+WHERE Year LIKE 2024
 GROUP BY 
-Year,
 Month
-ORDER BY Year, Month;
+ORDER BY Month 
+;
 
 ```
