@@ -109,4 +109,10 @@ Month
 ORDER BY Month 
 ;
 
+--Find the top 5 customers by total purchase amount--
+SELECT  Customer_id, SUM(Quantity * UnitPrice) AS Total_purchase_amount
+FROM salesdata
+GROUP BY Customer_id
+ORDER BY Total_purchase_amount DESC
+LIMIT 5;
 ```
