@@ -40,11 +40,6 @@ The dataset consists of transactional sales data with the following key columns:
 - Top customers by sales volume.
 - Average order value and profit margin.
 
-### Analysis Methodology:
-- SQL : will be used to extract and preprocess data from the database, filtering specific columns and applying necessary calculations.
-- Excel : will be used for intermediate-level analysis and data manipulation, including summary reports and quick visualizations.
-- Power BI : will be used for advanced, interactive dashboards, allowing stakeholders to explore insights visually and interactively, with the ability to filter, slice, and drill into the data.
-
 ### Expected Outcomes:
 - Comprehensive Reports: Sales performance insights, including regional, product, and customer-based summaries.
 - Interactive Dashboards: Dynamic Power BI dashboards enabling real-time filtering of sales metrics, trends, and performance KPIs.
