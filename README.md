@@ -100,4 +100,11 @@ UPDATE salesdata
 SET Year = YEAR(STR_TO_DATE(Orderdate, '%c/%e/%Y')),
 Month = MONTH(STR_TO_DATE(Orderdate, '%c/%e/%Y'));
 
+SELECT Year, Month, SUM(Quantity * UnitPrice) AS Total_sale_value
+FROM salesdata 
+GROUP BY 
+Year,
+Month
+ORDER BY Year, Month;
+
 ```
