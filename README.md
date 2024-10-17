@@ -59,6 +59,9 @@ The dataset consists of transactional sales data with the following key columns:
 
 ![Monthly trends](https://github.com/user-attachments/assets/bd779fe4-895e-4b9c-ab9f-8d23621d3f7c)
 
+![Average Sale](https://github.com/user-attachments/assets/162284cb-281d-4237-89d2-7fee5a089637)
+
+
 ### Code Used
  ```SQL
 CREATE DATABASE Sales_DB;
