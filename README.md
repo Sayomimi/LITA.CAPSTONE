@@ -123,4 +123,10 @@ SUM(Quantity * UnitPrice) AS Region_Sales,
 FROM salesdata
 GROUP BY Region
 ORDER BY Percentage_of_totalsales DESC;
+
+--Identify products with no sales in the last quarter--
+SELECT Product
+FROM salesdata
+GROUP BY Product
+HAVING MAX(STR_TO_DATE(OrderDate, '%c/%e/%Y')) <DATE_SUB(CURDATE(), INTERVAL 1 QUARTER);
 ```
