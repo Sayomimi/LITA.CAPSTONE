@@ -115,4 +115,11 @@ FROM salesdata
 GROUP BY Customer_id
 ORDER BY Total_purchase_amount DESC
 LIMIT 5;
+
+SELECT Region,
+SUM(Quantity * UnitPrice) AS Region_Sales,
+(SUM(Quantity * UnitPrice)/(SELECT SUM(Quantity * UnitPrice) FROM salesdata )* 100) AS Percentage_of_totalsales
+FROM salesdata
+GROUP BY Region
+ORDER BY Percentage_of_totalsales DESC;
 ```
