@@ -116,6 +116,7 @@ GROUP BY Customer_id
 ORDER BY Total_purchase_amount DESC
 LIMIT 5;
 
+--Calculate the percentage of total sales contributed by each region
 SELECT Region,
 SUM(Quantity * UnitPrice) AS Region_Sales,
 (SUM(Quantity * UnitPrice)/(SELECT SUM(Quantity * UnitPrice) FROM salesdata )* 100) AS Percentage_of_totalsales
