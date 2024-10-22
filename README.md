@@ -46,7 +46,7 @@ The dataset consists of transactional sales data with the following key columns:
 - Actionable Insights: Recommendations for improving sales strategies, focusing on high-growth products and regions, and identifying key customer segments.
 
 ### Pivot Tables
-![Sales by product](https://github.com/user-attachments/assets/8d4e2ffb-cc62-42e5-b7d4-6392f9842d0c)
+![Sales_by_product](https://github.com/user-attachments/assets/51ab1674-da8f-4f17-82d3-48990c4dbb0e)
 
 ![Sales by region](https://github.com/user-attachments/assets/9efb5be8-ef99-4e3c-807f-24cc0e36424b)
 
