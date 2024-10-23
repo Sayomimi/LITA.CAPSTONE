@@ -1,20 +1,20 @@
 # SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE
 ---
-[Objective](Objective)
+[Objective](#objective)
 
-[Data Source](Data-Source)
+[Data Source](#data-source)
 
-[Tools and Techniques](Tools-and-Techniques)
+[Tools and Techniques](#tools-and-techniques)
 
-[Key Metrics](Key-Metrics)
+[Key Metrics](#key-metrics)
 
-[Expected Outcomes](Expected_Outcomes)
+[Expected Outcomes](#expected-outcomes)
 
-[Pivot Tables](PivotTables)
+[Pivot Tables](#pivot-tables)
 
-[Code Used](Code_Used)
+[Code Used](#code-used)
 
-[Data Visualization](Data-Visualization)
+[Data Visualization](#data-visualization)
 
 ---
 
