@@ -2,19 +2,20 @@
 ---
 [Objective](Objective)
 
-[Data Source](Data_Source)
+[Data Source](Data-Source)
 
-[Tools and Techniques](Tools_and_Techniques)
+[Tools and Techniques](Tools-and-Techniques)
 
-[Key Metrics](Key_Metrics)
+[Key Metrics](Key-Metrics)
 
 [Expected Outcomes](Expected_Outcomes)
 
-[Pivot Tables](Pivot_Tables)
+[Pivot Tables](PivotTables)
 
 [Code Used](Code_Used)
 
-[Data Visualization](Data_Visualization)
+[Data Visualization](Data-Visualization)
+
 ---
 
 ### Project Overview: Sales Data Analysis
