@@ -1,10 +1,27 @@
-# LITA.SALES.PROJECT
+# SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE
+---
+[Objective](Objective)
+
+[Data Source](Data_Source)
+
+[Tools and Techniques](Tools_and_Techniques)
+
+[Key Metrics](Key_Metrics)
+
+[Expected Outcomes](Expected_Outcomes)
+
+[Pivot Tables](Pivot_Tables)
+
+[Code Used](Code_Used)
+
+[Data Visualization](Data_Visualization)
+---
 
 ### Project Overview: Sales Data Analysis
 
 ### Objective:
 The goal of this project is to analyze sales performance using advanced data analysis techniques to uncover trends, optimize sales strategies, and improve decision-making. The analysis will focus on understanding product and regional sales performance, customer behavior, and monthly trends, leading to actionable insights.
-
+---
 ### Data Source:
 The dataset consists of transactional sales data with the following key columns:
 - Order ID: Unique identifier for each sale.
@@ -14,7 +31,7 @@ The dataset consists of transactional sales data with the following key columns:
 - Order Date: Date of the transaction.
 - Quantity: The number of units sold.
 - Unit Price: Price per unit of the product.
-
+---
 ### Tools and Techniques:
 
 1. Microsoft Excel:
@@ -32,19 +49,18 @@ The dataset consists of transactional sales data with the following key columns:
    - Building interactive dashboards for dynamic visualizations.
    - Visual analysis of key performance indicators (KPIs) such as total sales, regional performance, product profitability, and customer segmentation.
    - Drill-down capabilities for exploring data in detail, filtering by time periods, and comparing different products/regions.
-
+---
 ### Key Metrics:
 - Total sales value (Quantity × Unit Price).
 - Orders per region and product.
 - Sales growth trends over time.
 - Top customers by sales volume.
-- Average order value and profit margin.
-
+---
 ### Expected Outcomes:
 - Comprehensive Reports: Sales performance insights, including regional, product, and customer-based summaries.
 - Interactive Dashboards: Dynamic Power BI dashboards enabling real-time filtering of sales metrics, trends, and performance KPIs.
 - Actionable Insights: Recommendations for improving sales strategies, focusing on high-growth products and regions, and identifying key customer segments.
-
+---
 ### Pivot Tables
 ![Sales_by_product](https://github.com/user-attachments/assets/51ab1674-da8f-4f17-82d3-48990c4dbb0e)
 
@@ -56,7 +72,7 @@ The dataset consists of transactional sales data with the following key columns:
 
 ![Average Sale](https://github.com/user-attachments/assets/162284cb-281d-4237-89d2-7fee5a089637)
 
-
+---
 ### Code Used
  ```SQL
 CREATE DATABASE Sales_DB;
@@ -128,3 +144,35 @@ FROM salesdata
 GROUP BY Product
 HAVING MAX(STR_TO_DATE(OrderDate, '%c/%e/%Y')) <DATE_SUB(CURDATE(), INTERVAL 1 QUARTER);
 ```
+---
+### Data Visualization
+
+Sales Overview Dashboard Description
+
+1. Cards for Key Metrics:
+   - Total Revenue
+   - Average Revenue per Customer
+   - Total Units Sold
+   - Total Orders
+     
+2. Line Chart for Total Revenue by Month:
+   - A line chart tracks the total revenue over time, broken down by month, providing insight into seasonal trends and revenue growth over time.
+
+3. Bar Chart for Top Performing Products by Revenue:
+   - A bar chart highlights the top-performing products based on total revenue. This helps identify which products contribute the most to the company's sales.
+
+4. Donut Chart for Sum of Products by Quantity:
+   - A donut chart visualizes the sum of products sold by quantity, giving an overview of product demand in terms of volume.
+
+5. Top Customers:
+   - A table showcases the top 10 customers by revenue, giving a detailed view of high-value customers.
+   - A clustered column chart visualizes the top 5 customers by the products they purchase, helping to understand customer preferences and product choices.
+
+6. Interactive Slicers:
+   - Slicers for Region,
+   -  Product,
+   -  Year allow users to filter the visuals and explore the data dynamically, providing deeper insights into specific segments.
+
+
+<img width="578" alt="Sales_Performance_Visuals" src="https://github.com/user-attachments/assets/4c906174-0663-4470-a271-842ff6a22c18">
+
