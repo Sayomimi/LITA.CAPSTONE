@@ -175,6 +175,7 @@ Sales Overview Dashboard Description
    -  Year allow users to filter the visuals and explore the data dynamically, providing deeper insights into specific segments.
 
 
-<img width="578" alt="Capstone Sales" src="https://github.com/user-attachments/assets/a205ddbc-866e-4e66-b816-eda016b9f6b4">
+
+<img width="480" alt="Sales Capstone" src="https://github.com/user-attachments/assets/7064664e-2eaa-4bb0-9d5e-ce4cae98b180">
 
 
