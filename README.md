@@ -150,30 +150,22 @@ HAVING MAX(STR_TO_DATE(OrderDate, '%c/%e/%Y')) <DATE_SUB(CURDATE(), INTERVAL 1 Q
 
 Sales Overview Dashboard Description
 
-1. Cards for Key Metrics:
-   - Total Revenue
-   - Average Revenue per Customer
-   - Total Units Sold
-   - Total Orders
-     
-2. Line Chart for Total Revenue by Month:
-   - A line chart tracks the total revenue over time, broken down by month, providing insight into seasonal trends and revenue growth over time.
+  - Total Sales (Revenue): $11M
+  - Average Revenue: $21.18K
+  - Total Orders: 50K
+  - Total Units Sold: 345K
 
-3. Bar Chart for Top Performing Products by Revenue:
-   - A bar chart highlights the top-performing products based on total revenue. This helps identify which products contribute the most to the company's sales.
+- Total Sales (Revenue) by Month: A line chart displays monthly revenue trends, with the highest point reaching $2,750,000, reflecting peaks and troughs in monthly sales.
 
-4. Donut Chart for Sum of Products by Quantity:
-   - A donut chart visualizes the sum of products sold by quantity, giving an overview of product demand in terms of volume.
+- Top Performing Products: A bar chart reveals revenue by product, with **Shoes** generating $3,087,500, followed by **Shirt** and **Hat**.
 
-5. Top Customers:
-   - A table showcases the top 10 customers by revenue, giving a detailed view of high-value customers.
-   - A clustered column chart visualizes the top 5 customers by the products they purchase, helping to understand customer preferences and product choices.
+- Sum of Quantity by Product: A donut chart shows the distribution of quantities sold across products, with **Jacket** accounting for 63K units (18.12%) and **Socks** at 73K units (21.19%).
 
-6. Interactive Slicers:
-   - Slicers for Region,
-   -  Product,
-   -  Year allow users to filter the visuals and explore the data dynamically, providing deeper insights into specific segments.
+- Top Customers: A table lists the top 10 customers by total revenue, with **Cus1488** contributing the highest sales at $29,340.
 
+- Products Purchased by Top 5 Customers: A clustered column chart displays the purchasing patterns of the top 5 customers across products, showing **Cus1375** and **Cus1049** as high-diversity product purchasers.
+
+The dashboard includes slicers for year, product, and region, allowing users to filter and analyze data across different segments interactively.
 
 
 <img width="480" alt="Sales Capstone" src="https://github.com/user-attachments/assets/7064664e-2eaa-4bb0-9d5e-ce4cae98b180">
