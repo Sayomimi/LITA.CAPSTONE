@@ -150,7 +150,7 @@ HAVING MAX(STR_TO_DATE(OrderDate, '%c/%e/%Y')) <DATE_SUB(CURDATE(), INTERVAL 1 Q
 
 Sales Overview Dashboard Description
 
-  - Total Sales (Revenue): $11M
+  - Total Sales (Revenue): $10,587,500
   - Average Revenue: $21.18K
   - Total Orders: 50K
   - Total Units Sold: 345K
@@ -168,6 +168,4 @@ Sales Overview Dashboard Description
 The dashboard includes slicers for year, product, and region, allowing users to filter and analyze data across different segments interactively.
 
 
-<img width="480" alt="Sales Capstone" src="https://github.com/user-attachments/assets/7064664e-2eaa-4bb0-9d5e-ce4cae98b180">
-
-
+<img width="482" alt="Capstone_Sales LITA" src="https://github.com/user-attachments/assets/80b72154-94e7-4568-9233-e88670857a39">
