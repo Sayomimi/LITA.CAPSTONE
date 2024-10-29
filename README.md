@@ -86,7 +86,7 @@ FROM salesdata
 GROUP BY Product;
 
 --Find the number of sales transactions in each region--
-SELECT COUNT(OrderID), Region
+SELECT COUNT(OrderID) AS SalesTransaction, Region
 FROM salesdata
 GROUP BY Region;
 
