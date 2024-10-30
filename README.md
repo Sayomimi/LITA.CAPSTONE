@@ -116,7 +116,7 @@ UPDATE salesdata
 SET Year = YEAR(STR_TO_DATE(Orderdate, '%c/%e/%Y')),
 Month = MONTH(STR_TO_DATE(Orderdate, '%c/%e/%Y'));
 
-SELECT Month, SUM(Quantity * UnitPrice) AS Total_sale_value
+SELECT Month, SUM(Quantity * UnitPrice) AS Monthly_sales
 FROM salesdata 
 WHERE Year LIKE 2024
 GROUP BY 
