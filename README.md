@@ -178,7 +178,13 @@ The dashboard includes slicers for year, product, and region, allowing users to 
 
 <img width="482" alt="Capstone_Sales LITA" src="https://github.com/user-attachments/assets/80b72154-94e7-4568-9233-e88670857a39">
 
+---
 
+---
+
+---
+
+---
 
 
 ## Customer Segmentation for a Subscription Service
@@ -203,7 +209,8 @@ This project involves:
 
 ![Rev_sub_reg](https://github.com/user-attachments/assets/4df5c629-30da-41a2-b521-7dcf82bde8f5)
 
-![Canceled sub](https://github.com/user-attachments/assets/2908732a-0d33-4ecd-93e4-3262723a1b7a)
+![Canceled sub](https://github.com/user-attachments/assets/27c64871-3ff6-47e8-a300-4b3ac86ee543)
+
 
 ![Avg_sub](https://github.com/user-attachments/assets/bae20d23-d4fd-4685-b586-662ac2cb6e19)
 
