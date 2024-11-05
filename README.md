@@ -1,9 +1,9 @@
 # CAPSTONE PROJECT
 This repository contains the two datasets.
 
-[Sales Performance Analysis for a Retail Store](sales-performance-analysis-for-a-retail-store)
+[Sales Performance Analysis for a Retail Store](#sales-performance-analysis-for-a-retail-store)
 
-[Customer Segmentation for a Subscription Service](customer-segmentation-for-a-subscription-service)
+[Customer Segmentation for a Subscription Service](#customer-segmentation-for-a-subscription-service)
 
 
 ## Sales Performance Analysis for a Retail Store
